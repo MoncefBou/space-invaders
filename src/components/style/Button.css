@@ -1,11 +1,17 @@
 button {
-    color: rgb(189, 183, 179);
+    color: rgb(236 38 44);
     font-size: 20px;
     border-radius: 5px;
-    width: 200px;
-    height: 70px;
+    width: 100px;
+    height: 50px;
     cursor: pointer;
-    text-align: center;
-    margin-top: 200px;
-    background-color: rgba(189, 183, 179, 0);
+    background: linear-gradient(222deg, rgba(254,219,0,1) 0%, rgba(255,229,4,1) 46%, rgba(255,253,162,1) 100%);
+    font-family: arial;
+    font-weight: bolder;
+    border: none;
+}
+
+button:hover {
+box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.459);
+background: linear-gradient(222deg, rgb(255, 231, 78) 0%, rgb(255, 244, 141) 46%, rgb(255, 241, 45) 100%);
 }

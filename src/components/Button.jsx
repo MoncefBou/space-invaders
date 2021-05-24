@@ -5,7 +5,7 @@ class Spaceship extends React.Component {
 
   render() {
     return (
-      <button onClick={this.props.begin}> Go ! </button>
+      <button onClick={this.props.begin}> {this.props.children} </button>
     )
   }
 }

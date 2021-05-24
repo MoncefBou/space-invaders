@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/Bullet.css';
-import BulletImg from '../img/bullet.png';
+import BulletImg from '../img/bullet1.png';
 
 class Bullet extends React.Component {
 
@@ -9,9 +9,10 @@ class Bullet extends React.Component {
         return (
             <img
                 className='bulletImg'
-                src={BulletImg}
+                src={BulletImg} alt="Bullet"
                 style={{
-                    gridColumnStart: this.props.gridPositionColumn, gridRowStart: this.props.gridPositionRow,
+                    gridColumnStart: this.props.gridPositionColumn,
+                    gridRowStart: this.props.gridPositionRow,
                     display: this.props.display
                 }} >
             </img>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/Spaceship.css';
-import ImageSpaceship from '../img/spaceship.png';
+import ImageSpaceship from '../img/spaceship/ship1.png';
 
 class Spaceship extends React.Component {
 
@@ -9,7 +9,7 @@ class Spaceship extends React.Component {
 
       <img 
       className='spaceshipImg'
-      src={ImageSpaceship}
+      src={ImageSpaceship} alt="Spaceship"
         style={{
           display: this.props.display,
           gridColumnStart: this.props.gridPositionColumn,

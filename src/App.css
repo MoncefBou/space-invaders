@@ -2,12 +2,17 @@
     outline: none;
 }
 
+html, body, #root {
+    height: 100%;
+}
+
 body {
     margin: 0;
-    background-image: url(./img/galaxy_stars_universe_light_planet_63624_1280x720.jpg);
+    background-image: url(./img/background/cool-space-background-full-hd-1920x1080-398571.jpg);
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: cover;
 }
+
 
 #root {
     display: flex;
@@ -32,9 +37,11 @@ body {
 
 #bigDiv {
     display: grid;
-    grid-template-columns: repeat(45, 14.2px);
-    grid-template-rows: repeat(45, 14.2px);
+    grid-template-columns: repeat(65, 1.3vw);
+    grid-template-rows: repeat(45, 2.2vh);
     justify-items: center;
+    background-color: #ffeb3b24;
+    box-shadow: 0px 0px 30px 30px #ffeb3b24;
 }
 
 .banner {
@@ -65,17 +72,77 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #ffeb3b24;
+    box-shadow: 0px 0px 10px 10px #ffeb3b24;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
 }
 
-#firstMenu h1 {
-    color: rgb(189, 183, 179);
-    text-align: center;
-    font-size: 50px;
+#firstMenu img {
+
+    width: 110%;
 }
 
-#firstMenu section {
-    color: rgb(189, 183, 179);
-    font-style: italic;
+.titleAndButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
+    justify-content: space-between;
+}
+
+#menuEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffeb3b24;
+    box-shadow: 0px 0px 10px 10px #ffeb3b24;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+}
+
+.titleEnd {
+    width: 80%;
+    height: 40%;
+}
+
+.titleAndButtonEnd h2 {
+    color: transparent;
+    font-family: arial;
+    -webkit-text-stroke: 1px #fedf01;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.titleAndButtonEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85%;
+    justify-content: flex-start;
+}
+
+.titleAndButtonEnd p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    background: -webkit-linear-gradient(#f00, #d20b0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.1vw;
+    -webkit-text-stroke: 1px #00000059;
     text-align: center;
-    font-size: 30px;
+}
+
+.linkEnd img {
+    width: 40px;
+}
+
+.linkEnd {
+    margin-top: 75px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
 }
