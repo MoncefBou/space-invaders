@@ -275,8 +275,8 @@ class App extends React.Component {
           <Button begin={this.toRestart}>Restart</Button>
 
           <div className='linkEnd'>
-          <a href="https://github.com/moncefbou" target="_blank" ><img src={Github}></img></a>
-          <a href="https://www.linkedin.com/in/moncef-boughal-a3118620a/" target="_blank" ><img src={Linkedin}></img></a>
+          <a href="https://github.com/moncefbou" target="_blank" rel="noreferrer"><img src={Github} alt="Github"></img></a>
+          <a href="https://www.linkedin.com/in/moncef-boughal-a3118620a/" target="_blank" rel="noreferrer"><img src={Linkedin} alt="Linkedin"></img></a>
           </div>
 
         </div>
